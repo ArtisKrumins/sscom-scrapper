@@ -1,0 +1,6 @@
+requests
+BeautifulSoup
+sleep
+datetime
+gspread
+ServiceAccountCredentials
