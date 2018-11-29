@@ -28,7 +28,7 @@ Copy JSON file content in `data/creds.json`.
 Add five column names in top row: `Fetch date`, `URL`, `Price`, `Date`, `Description`. 
 Everything else script should be able to add by itself.  
 
-Add categories of interest in `target_list` in python file. Change `google_filename` and `google_sheet_name` accordingly.
+Add ss.com ad categories of interest (links) in `target_list` in python file. Change `google_filename` and `google_sheet_name` accordingly.
 
 Run `python base.py` (tested with real estate) or  `python base_cars.py` (tested with cars).
 
@@ -39,7 +39,7 @@ Check scraping process in Sheet. Add this task to scheduler if needed.
 Template `base.py` is written for real estate. Template `base_cars.py` is for cars. These may work well 
 for other categories as well but do not hesitate to modify accordingly if needed.  
 
+This is tested only for Selling ads. Renting, Buying and Exchange ads may not work out of the box.
+
 Google Sheet API has strict limits on read/write operation (https://developers.google.com/sheets/api/limits). 
 That' s why process should be paused on each ad.
-
-This is tested only for Selling ads. Renting, Buying and Exchange ads may not work out of the box. 
