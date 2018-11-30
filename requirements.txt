@@ -1,6 +1,6 @@
 requests
-BeautifulSoup
-sleep
+bs4
+time
 datetime
 gspread
-ServiceAccountCredentials
+oauth2client
